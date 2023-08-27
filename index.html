@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adidas</title>
+
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/adidas-removebg-preview.png">
+
+</head>
+
+<body>
+
+    <nav class="navbar col-12 position-fixed bg-black navbar-expand-lg" data-bs-theme="dark" style="z-index: 999;">
+        <div class="container-fluid col-11">
+            <a class="navbar-brand" href="#">Adidas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conteudo">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" href="footer">Direitos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/ad1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Adidas no Brasil</h5>
+                    <p>A melhor marca no país todo e no mundo inteiro.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/ad2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TÊNIS ADIDAS X LEGO® SUPERSTAR</h5>
+                    <p>Acrescente uma novidade surpreendente à sua coleção de tênis com o modelo adidas x LEGO®
+                        Superstar. Parte da parceria entre adidas e o LEGO Group, esta versão inclui estampa icônica do
+                        adidas Originals Superstar, formato da biqueira shell toe, logo Trefoil e as Três Listras
+                        serrilhadas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/ad3.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Desde 1949 até Agora</h5>
+                    <p>Adi Dassler fundou a adidas em 18 de agosto de 1949. Com o tempo, a influência da marca se
+                        expandiu para além do esporte, deixando sua marca na moda, música, cultura e sustentabilidade.
+                        Somos guiados por uma jornada que revela os estilos que contribuíram para a nossa identidade
+                        atual.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="produtos" class="card-group">
+        <div class="card col-11 m-auto">
+            <img src="img/Tenis_Samba_OG_Branco_B75806_04_standard.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">SAMBA ORIGINALS</h5>
+                <p class="card-text">Nascido no futebol, o Samba é um ícone atemporal da moda urbana, um
+                    pedacinho do Brasil nos nossos tênis.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+                    Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="Modal1Label">SAMBA ORIGINALS</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Tenis_Samba_OG_Branco_B75806_04_standard.avif" class="card-img-top"
+                                    alt="...">
+                                <p class="card-text">Nascido no futebol, o Samba é um ícone atemporal da moda urbana.
+                                    Esta silhueta mantém-se fiel ao seu legado com um cabedal de couro macio de perfil
+                                    baixo e elegante, sobreposições de suede e solado de goma de borracha, tornando-o um
+                                    item básico no guarda-roupa de todos, um pedacinho do Brasil nos nossos tênis.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/Tenis_Gazelle_Indoor_Azul_IG4994_04_standard.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">GAZELLE INDOOR</h5>
+                <p class="card-text">Um revival do tênis Gazelle Indoor de 1979, este tênis adidas tem todos os detalhes
+                    que os fãs de futebol, roqueiros indies e sneakerheads adoram há décadas.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">
+                    Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="Modal2Label">GAZELLE INDOOR</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Tenis_Gazelle_Indoor_Azul_IG4994_04_standard.avif" alt="" class="card-img-top">
+                                <p>Um revival do tênis Gazelle Indoor de 1979, este tênis adidas tem todos os detalhes
+                                    que os fãs de futebol, roqueiros indies e sneakerheads adoram há décadas. O suede macio e o forro de
+                                    couro durável unem-se sobre um solado de goma de borracha com efeito translúcido. As Três Listras
+                                    completam o look autêntico.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="img/Tenis_Forum_Low_Branco_FY7757_04_standard.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">FORUM LOW</h5>
+                <p class="card-text">Mais que apenas um tênis, ele é uma declaração, destilados em
+                    uma versão de cano baixo para as ruas.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">
+                    Ver mais...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="Modal3Label">FORUM LOW</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/Tenis_Forum_Low_Branco_FY7757_04_standard.avif" alt="" class="card-img-top">
+                                Mais que apenas um tênis, ele é uma declaração. O adidas Forum entrou em cena em 84
+                    e arrebatou todo o amor das quadras e do show biz. Este tênis clássico traz de volta a atitude dos
+                    anos 80, a energia explosiva do basquete e o icônico design de tira em X no tornozelo, destilados em
+                    uma versão de cano baixo para as ruas.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                <button type="button" class="btn btn-primary">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    <hr class="col-11 m-auto" />
+    <div id="conteudo" class="col-11 m-auto">
+        <h2 class="text-center">História da Adidas: Elevando o Esporte e a Moda</h2>
+        <p class="text-center">Fundada em 1949 por Adolf "Adi" Dassler, a Adidas transcende o esporte, influenciando a
+            moda e cultura global. Com foco na inovação de calçados esportivos desde a Alemanha, destacou-se nos anos
+            1930 com produtos de alta qualidade para atletas olímpicos. A revolucionária sapatilha "Samba" nos anos 1950
+            transformou o futebol com aderência inigualável em campos molhados.
+
+            O icônico logotipo "Três Listras" lançado em 1967 simboliza qualidade e inovação, impulsionando a Adidas
+            globalmente. Nos anos 1980, o tênis "Stan Smith" se tornou ícone de estilo, enquanto a marca conquistava a
+            cultura pop, adotada por músicos e celebridades.
+
+            No século XXI, a Adidas avança com tecnologia esportiva, como o amortecimento "Boost". Colaborações com
+            designers e celebridades resultam em coleções que unem moda e esportividade. A história da Adidas é uma
+            jornada autêntica e inovadora, inspirando atletas e entusiastas da moda globalmente.</p>
+    </div>
+    <hr class="col-11 m-auto">
+    <br><br>
+
+    <footer id="footer" class="page-footer p-5 col-11 m-auto" style="background-color: black;">
+        <div class="text-center">
+            <a href="#">@2023 Copyritght: Matheus Teles Batista</a>
+        </div>
+    </footer>
+
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
